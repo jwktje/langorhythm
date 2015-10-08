@@ -1,4 +1,4 @@
-# LangoRythm
+# LangoRhythm
 Prototype for a Language to music Algorythm
 
 This application uses Meteor. 
