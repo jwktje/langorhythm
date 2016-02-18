@@ -1,7 +1,8 @@
 fs = Meteor.npmRequire('fs');
+path = Meteor.npmRequire('path');
 var MidiGen = Meteor.npmRequire('jsmidgen');
 
-Meteor.tempDir = "/Users/jwktje/Development/Meteor/langorhythm/.midifiles/";
+Meteor.tempDir = path.resolve(path.resolve('.'), "../.midifiles/");
 Meteor.rootNote = 50;
 var transpose = 0;
 var bassTranspose = 0;
